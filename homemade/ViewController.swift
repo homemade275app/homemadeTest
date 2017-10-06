@@ -7,12 +7,11 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
     
-    
     //  "Entry" variables for user input
-    
     
     //  Create Account step
     
@@ -33,10 +32,6 @@ class ViewController: UIViewController {
     
     //  Forgot Password? Enter Email step
     @IBOutlet weak var ForgotPWEmail: UITextField!
-    
-    
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
